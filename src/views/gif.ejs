@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GIF</title>
+        <style>
+            body {
+                background-color: #222;
+                color: #fff;
+                font-family: sans-serif;
+                text-align: center;
+            }
+            button {
+                background-color: #ffa07a;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                margin-top: 20px;
+            }
+            footer {
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Proyecto Final DS</h1>
+        <h3>¡Gif generado!</h3>
+        <div class="container">
+        <iframe
+            src="https://giphy.com/embed/JKb28stpt0gwg"
+            width="480"
+            height="320"
+            frameBorder="0"
+            class="giphy-embed"
+            allowFullScreen
+            ></iframe>
+        </div>
+        <div>
+            <button onclick="location.href='/'">Volver al probar</button>
+            <button onclick="mostrarDetalles()">Ver todos los detalles</button>
+        </div>
+        <div id="detalles"></div>
+        <script>
+            function mostrarDetalles() {
+                document.getElementById('detalles').innerHTML = "<h4>Detalles aquí...</h4>";
+            }
+        </script>
+    </body>
+    <footer>
+        <a>Realizado por Gabriel Perez, Alejandro Ledezma y Mayra Oropeza</a>
+    </footer>
+</html>

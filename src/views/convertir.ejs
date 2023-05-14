@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Convertir imágenes</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        button {
+            background-color: #ffa07a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        footer {
+            height: 150px;
+            position: absolute; left: 0; bottom: 0; width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proyecto Final DS</h1>
+    <!-- <button onclick="location.href='/convertir'">Convirtiendo...</button> -->
+    <button onclick="location.href='/GIF'">Transformar a GIF</button>
+    <button onclick="mostrarDetalles()">Mostrar detalles</button>
+    <div id="detalles"></div>
+    <script>
+        function mostrarDetalles() {
+            document.getElementById('detalles').innerHTML = "<h3>Detalles aquí...</h3>";
+        }
+    </script>
+</body>
+<footer>
+    <a>Realizado por Gabriel Perez, Alejandro Ledezma y Mayra Oropeza</a>
+</footer>   
+</html>
